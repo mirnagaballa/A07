@@ -1,0 +1,85 @@
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	width: 600px;
+	margin: 0 auto 0 auto;
+	border: 3px solid #931420;
+	background-color: #fffded;
+
+}
+html {
+	background-color: white; /* Set the background color for the HTML element */
+  }
+header{
+	border-bottom:3px solid #931420 ;
+	padding: 1.5em 0 2em 0;
+	background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+}
+/* the styles for the header */
+header img {
+	float: left;
+	padding: 0 30px 0 30px;
+}
+header h2{
+	color: #800000;
+	font-size: 170%;
+	text-indent: 30px;
+
+}
+/* header h3 style */
+header h3{
+	color: #800000;
+	font-size: 130%;
+	text-indent: 30px;
+	font-style: italic;
+
+}
+/* Style rule for the "shadow" class */
+.shadow {
+    text-shadow: 2px 2px #800000;
+  }
+
+/* the styles for the main content */
+main {
+	clear: left;
+	padding: 0 30px 0 30px;
+}
+main h1 {
+	font-size: 150%;
+	border-top: 3px solid #931420; /* Add a top border to the h1 in the main element */
+  	border-bottom: 3px solid #931420; /* Add a bottom border to the h1 in the main element */
+	border: 2px double #931420; /* Double border */
+	border-radius: 10px; /* Rounded corners */
+	box-shadow: 3px 3px 5px #888888; /* Box shadow */
+	padding: 10px; /*Spacing  inside the heading */
+}
+main h2 {
+	color: var(--global-color-1);
+	font-size: 130%;
+}
+main h3 {
+	font-size: 105%;
+}
+
+a:focus {
+	font-style: italic;
+}
+
+/* the styles for the footer */
+footer{
+	background-color: #800000;
+	padding: 10px;
+	
+}
+footer p{
+	text-align: center;
+	color: white;
+}
+
+:root {
+	--global-color-1: #800000;
+  }
+  .my-element {
+	background-color: var(--global-color-1);
+  }
